@@ -90,6 +90,7 @@ docker rmi <image>              # Remove an image
 docker exec -it <container> sh  # Execute a command inside a running container
 docker logs <container>         # View logs
 docker system prune -a          # Clean up unused images/containers
+```
 
 ---
 
@@ -134,4 +135,3 @@ docker system prune -a          # Clean up unused images/containers
 - ❌ No `network: host`, `--link`, or `links:` allowed
 
 ---
-
